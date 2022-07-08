@@ -1,0 +1,88 @@
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.login-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.login-header img {
+  width: 100px;
+}
+
+.login-header h1 {
+  color: #333;
+  font-size: 1.5em;
+}
+
+.login-game {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 0 15px;
+  font-size: 1em;
+}
+
+.login-game .button-choose {
+  width: 49%;
+  padding: 15px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+  transition: all .4s;
+  outline: #333;
+  background-color: #eee;
+  color: #aaa;
+}
+
+.login-game .button-choose:hover {
+  letter-spacing: 4px;
+  filter: brightness(.9);
+}
+
+.login-input {
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 1em;
+  margin-bottom: 15px;
+  max-width: 300px;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.login-button {
+  background-color: #333;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  max-width: 300px;
+  padding: 15px;
+  width: 100%;
+  transition: all .4s;
+}
+
+.login-button:hover {
+  background-color: rgb(73, 73, 73);
+  letter-spacing: 4px;
+}
+
+.login-button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
